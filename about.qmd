@@ -5,26 +5,18 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
 
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
-
-## Internships
-
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+I have no internship or work experience yet, but that doesn't mean I'm not enthusiastic about working in the field of industrial engineering. Let's say, 'the star always comes out last,' and keep going!
 
 # Projects
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, MATLAB, AutoCAD
 
 # Hobbies
+
+Violin, robotics, traveling and reading.
