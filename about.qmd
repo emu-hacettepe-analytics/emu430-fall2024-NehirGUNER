@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+
 sidebar: false 
 ---
 
@@ -9,11 +10,13 @@ sidebar: false
 
 # Work Experience
 
+I have no internship or work experience yet, but that doesn't mean I'm not enthusiastic about working in the field of industrial engineering. Let's say, 'the star always comes out last,' and keep going!
+
 # Projects
 
 # Competencies
 
-R, Quarto, Git, Python, MATLAB, AutoCAD
+R, Quarto, Git, Python, MATLAB, Autocad
 
 # Hobbies
 
