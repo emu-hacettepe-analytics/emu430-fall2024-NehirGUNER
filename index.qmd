@@ -10,3 +10,14 @@ This is my personal webpage.
 Please stay tuned to follow my works on data analytics, blog posts, and more.
 
 This is our template.
+---
+title: "Welcome to Nehir's Analytics Lab"
+
+sidebar: false 
+---
+
+Hello! My name is Nehir Guner.
+
+This is my personal webpage.
+
+Please stay tuned to follow my works on data analytics, blog posts, and more.
