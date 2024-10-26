@@ -10,6 +10,24 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a)
+## (a) A brief summary
+
+In this part of the assignment, I have two research questions that I developed myself.
 
 ## (b)
+
+```{r}
+#Import the “polls_us_election_2016” data set
+
+install.packages("dslabs")
+
+library(dslabs)
+
+data(polls_us_election_2016)
+
+# Display the first 10 rows of the data set
+
+head(polls_us_election_2016, 10)
+polls_us_election_2016
+''
+```
