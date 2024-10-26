@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Analytics Lab",
+    "title": "Welcome to Nehir’s Analytics Lab",
     "section": "",
-    "text": "Hello! My name is xxx xxxx.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\nThis is our template.\n\n\n\n Back to top"
+    "text": "Hello! My name is Nehir Guner.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n Back to top"
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -25,7 +25,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing."
+    "text": "Education\n\nB.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.\n\n\n\nWork Experience\nI have no internship or work experience yet, but that doesn’t mean I’m not enthusiastic about working in the field of industrial engineering. Let’s say, ‘the star always comes out last,’ and keep going!\n\n\nProjects\n\n\nCompetencies\nR, Quarto, Git, Python, MATLAB, Autocad\n\n\nHobbies\nViolin, robotics, traveling and reading.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html#employements",
@@ -46,14 +46,20 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.\n\n\nIn this part of the assignment, I have two research questions that I developed myself.\n\n\n\n#Import the “polls_us_election_2016” data set\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set\n\nhead(polls_us_election_2016, 10)\n''",
+    "crumbs": [
+      "Assignment 1"
+    ]
   },
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "My Assignments",
     "section": "",
-    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Fall 2023] EMU 430 Data Analytics course.\nPlease use left menu to navigate through my assignments.\nThe most recent update to this page was made on October 25, 2023\n\n\n\n Back to top"
+    "text": "On this page, I showcase the assignment I conducted for the Fall 2024 EMU430 Data Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
+    "crumbs": [
+      "My Assignments"
+    ]
   },
   {
     "objectID": "posts.html",
@@ -61,5 +67,25 @@
     "title": "My Blog",
     "section": "",
     "text": "This page is under construction.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-a-brief-summary",
+    "href": "assignments/assignment-1.html#a-a-brief-summary",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "In this part of the assignment, I have two research questions that I developed myself.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "#Import the “polls_us_election_2016” data set\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set\n\nhead(polls_us_election_2016, 10)\n''",
+    "crumbs": [
+      "Assignment 1"
+    ]
   }
 ]
