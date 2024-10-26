@@ -4,9 +4,3 @@ sidebar: false
 ---
 
 This page is under construction.
----
-title: "My Blog"
-sidebar: false 
----
-
-This page is under construction.
