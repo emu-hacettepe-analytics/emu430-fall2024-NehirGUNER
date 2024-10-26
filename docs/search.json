@@ -46,7 +46,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.\n\n\nIn this part of the assignment, I have two research questions that I developed myself.\n\n\n\n#Import the “polls_us_election_2016” data set\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set\n\nhead(polls_us_election_2016, 10)\n''",
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.\n\n\nIn this part of the assignment, I have two research questions that I developed myself.\n\n\n\n#Import the “polls_us_election_2016” data set\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set\n\nhead(polls_us_election_2016, 10)\npolls_head &lt;- head(polls_us_election_2016, 10)\nknitr::kable(polls_head)\n\n''",
     "crumbs": [
       "Assignment 1"
     ]
@@ -83,7 +83,7 @@
     "href": "assignments/assignment-1.html#b",
     "title": "Assignment 1",
     "section": "",
-    "text": "#Import the “polls_us_election_2016” data set\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set\n\nhead(polls_us_election_2016, 10)\n''",
+    "text": "#Import the “polls_us_election_2016” data set\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set\n\nhead(polls_us_election_2016, 10)\npolls_head &lt;- head(polls_us_election_2016, 10)\nknitr::kable(polls_head)\n\n''",
     "crumbs": [
       "Assignment 1"
     ]

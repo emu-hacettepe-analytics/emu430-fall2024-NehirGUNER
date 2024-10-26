@@ -17,6 +17,7 @@ In this part of the assignment, I have two research questions that I developed m
 ## (b)
 
 ```{r}
+
 #Import the “polls_us_election_2016” data set
 
 install.packages("dslabs")
@@ -28,6 +29,16 @@ data(polls_us_election_2016)
 # Display the first 10 rows of the data set
 
 head(polls_us_election_2016, 10)
-polls_us_election_2016
+polls_head <- head(polls_us_election_2016, 10)
+knitr::kable(polls_head)
+
+library(dslabs)
+
+# Import the "na_example" data set
+na_example <- dslabs::na_example
+
+# View the content of the data set
+na_example
+
 ''
 ```
