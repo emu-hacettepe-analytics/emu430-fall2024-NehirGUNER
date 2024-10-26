@@ -2,12 +2,6 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
-
-```{r}
-1 + 1
-```
-
 My first assignment has two parts.
 
 ## (a) A brief summary
@@ -17,18 +11,17 @@ In this part of the assignment, I have two research questions that I developed m
 ## (b)
 
 ```{r}
-# Import the “polls_us_election_2016” data set
 
-install.packages("dslabs")
+# Import the “polls_us_election_2016” data set.
 
 library(dslabs)
 
 data(polls_us_election_2016)
 
-# Veri setinin ilk 10 satırını görüntüle
-polls_head <- head(polls_us_election_2016, 10)
+# Display the first 10 rows of the data set on your web page.
 
-# Tabloyu düzgün bir formatta göster
-knitr::kable(polls_head)
+knitr::kable(cbind(Row_Number = sprintf("%-2s", 1:10), head(polls_us_election_2016, 10)), 
+             
+caption = "Polls US Election 2016 - First 10 Rows")
 
 ```

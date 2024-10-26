@@ -212,11 +212,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a>
-  <ul class="collapse">
-  <li><a href="#a-a-brief-summary" id="toc-a-a-brief-summary" class="nav-link" data-scroll-target="#a-a-brief-summary">(a) A brief summary</a></li>
+  <li><a href="#a-a-brief-summary" id="toc-a-a-brief-summary" class="nav-link active" data-scroll-target="#a-a-brief-summary">(a) A brief summary</a></li>
   <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
-  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -246,14 +243,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="assignment-1" class="level1">
-<h1>Assignment 1</h1>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
 <p>My first assignment has two parts.</p>
 <section id="a-a-brief-summary" class="level2">
 <h2 class="anchored" data-anchor-id="a-a-brief-summary">(a) A brief summary</h2>
@@ -262,30 +251,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="b" class="level2">
 <h2 class="anchored" data-anchor-id="b">(b)</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the “polls_us_election_2016” data set</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"dslabs"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"dslabs"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Gerekli kütüphaneyi yükleyin</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Veri setini içe aktarın</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(polls_us_election_2016)</span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Veri setinin ilk 10 satırını görüntüle</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>polls_head <span class="ot">&lt;-</span> <span class="fu">head</span>(polls_us_election_2016, <span class="dv">10</span>)</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Tabloyu düzgün bir formatta göster</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(polls_head)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import the “polls_us_election_2016” data set.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(polls_us_election_2016)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the first 10 rows of the data set on your web page.</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">cbind</span>(<span class="at">Row_Number =</span> <span class="fu">sprintf</span>(<span class="st">"%-2s"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>), <span class="fu">head</span>(polls_us_election_2016, <span class="dv">10</span>)), </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>             </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">caption =</span> <span class="st">"Polls US Election 2016 - First 10 Rows"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
+<caption>Polls US Election 2016 - First 10 Rows</caption>
 <colgroup>
 <col style="width: 4%">
 <col style="width: 4%">
 <col style="width: 4%">
-<col style="width: 23%">
+<col style="width: 4%">
+<col style="width: 22%">
 <col style="width: 2%">
 <col style="width: 4%">
 <col style="width: 4%">
@@ -300,6 +285,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </colgroup>
 <thead>
 <tr class="header">
+<th style="text-align: left;">Row_Number</th>
 <th style="text-align: left;">state</th>
 <th style="text-align: left;">startdate</th>
 <th style="text-align: left;">enddate</th>
@@ -319,6 +305,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
+<td style="text-align: left;">1</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-03</td>
 <td style="text-align: left;">2016-11-06</td>
@@ -336,6 +323,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">2</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-01</td>
 <td style="text-align: left;">2016-11-07</td>
@@ -353,6 +341,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">3</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-02</td>
 <td style="text-align: left;">2016-11-06</td>
@@ -370,6 +359,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">4</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-04</td>
 <td style="text-align: left;">2016-11-07</td>
@@ -387,6 +377,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">5</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-03</td>
 <td style="text-align: left;">2016-11-06</td>
@@ -404,6 +395,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">6</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-03</td>
 <td style="text-align: left;">2016-11-06</td>
@@ -421,6 +413,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">7</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-02</td>
 <td style="text-align: left;">2016-11-06</td>
@@ -438,6 +431,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">8</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-03</td>
 <td style="text-align: left;">2016-11-05</td>
@@ -455,6 +449,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">9</td>
 <td style="text-align: left;">New Mexico</td>
 <td style="text-align: left;">2016-11-06</td>
 <td style="text-align: left;">2016-11-06</td>
@@ -472,6 +467,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">10</td>
 <td style="text-align: left;">U.S.</td>
 <td style="text-align: left;">2016-11-04</td>
 <td style="text-align: left;">2016-11-07</td>
@@ -494,7 +490,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
