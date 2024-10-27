@@ -100,7 +100,7 @@ d) Because it only requires technical knowledge
 
 If the analysis reveals that customers who make frequent purchases in the first few months are more likely to stay, the company can implement a targeted retention program. This might include personalized follow-ups or special offers for these customers shortly after their initial purchase. By leveraging data insights, the company can tailor its strategies to keep valuable customers, thereby maximizing the effectiveness of its business processes.
 
-## (b)
+## (b) US Elections Polls
 
 ```{r}
 
