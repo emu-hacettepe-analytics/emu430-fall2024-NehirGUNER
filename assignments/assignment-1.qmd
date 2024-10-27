@@ -10,21 +10,63 @@ In this part of the assignment, I have two research questions that I developed m
 
 ## (b)
 
-```{'''{r}
+```{r}
 
-# Kütüphaneyi yükle
+
+# import the “polls_us_election_2016” data set from the dslabs package
+
+if (!requireNamespace("dslabs", quietly = TRUE)) {
+  install.packages("dslabs")
+}
+
 library(dslabs)
 
-# Veri setini yükle
 data(polls_us_election_2016)
 
-# İlk 10 satırı al
+# display the first 10 rows of the data set on your web page.
+
 polls_first10 <- head(polls_us_election_2016, 10)
+print(polls_first10)
 
-# NA değerlerini say
-total_NA <- sum(is.na(polls_first10))
+# calculate and display the total number of NA values in the entire data set.
 
-# Sonucu yazdır
+total_NA <- sum(is.na(polls_us_election_2016))
 print(total_NA)
-''
+
+# replace all NA values in the “polls_us_election_2016” data set and store the modified data set as a new object.
+
+polls_modified <- polls_us_election_2016
+
+# for numeric columns replace NA values with your birth year.
+
+birth_year <- 2004  
+
+polls_modified[sapply(polls_modified, is.numeric)] <- lapply(
+  polls_modified[sapply(polls_modified, is.numeric)], 
+  function(x) replace(x, is.na(x), birth_year)
+)
+
+# for character or factor columns replace NA values with your first name
+
+first_name <- "Nehir"
+
+polls_modified[sapply(polls_modified, is.character)] <- lapply(
+  polls_modified[sapply(polls_modified, is.character)], 
+  function(x) replace(x, is.na(x), first_name)
+)
+
+polls_modified[sapply(polls_modified, is.factor)] <- lapply(
+  polls_modified[sapply(polls_modified, is.factor)], 
+  function(x) replace(x, is.na(x), as.factor(first_name))
+)
+
+# print the first 10 rows of the new data frame
+print(head(polls_modified, 10))
+
+# the total number of NAs remaining in the new data frame.
+
+remaining_NA <- sum(is.na(polls_modified))
+print(remaining_NA)
+
+
 ```
