@@ -36,5 +36,4 @@ total_NA <- sum(is.na(polls_first10))
 
 print(total_NA)
 
-
 ```
