@@ -148,10 +148,6 @@ polls_modified[sapply(polls_modified, is.character)] <- lapply(
   function(x) replace(x, is.na(x), first_name)
 )
 
-polls_modified[sapply(polls_modified, is.factor)] <- lapply(
-  polls_modified[sapply(polls_modified, is.factor)], 
-  function(x) replace(x, is.na(x), as.factor(first_name))
-)
 
 # print the first 10 rows of the new data frame
 print(head(polls_modified, 10))
