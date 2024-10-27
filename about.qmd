@@ -3,7 +3,8 @@ title: "About Me"
 
 sidebar: false 
 ---
-
+ Hi! I'm Nehir. I was born on July 20, 2004, in Tokat. I lived there until I was 14, after which I moved to Ankara with my family, and I have been living in this beautiful city for the last six years. Although I have been sensitive to justice and human rights issues and dreamed of studying law since childhood, I became fascinated with the world of positive sciences during high school and decided to pursue a career in engineering. My interest in innovation, mathematics, and analytical thinking, combined with my social skills, communication, and planning passion, led me to believe that industrial engineering was the right path for me. Influenced by the beauty of the Hacettepe campus and the Green Valley, I started my university life in a department that I believe will significantly develop me academically and in terms of vision. As of this year, I am in my third year of study, and my excitement grows alongside my passion as I continue my studies in the department.
+ 
 # Education
 
 -   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
@@ -20,4 +21,4 @@ R, Quarto, Git, Python, MATLAB, Autocad
 
 # Hobbies
 
-Violin, robotics, traveling and reading.
+Violin, robotics, psychology, traveling and reading.
