@@ -11,23 +11,38 @@ In this part of the assignment, I have two research questions that I developed m
 ## (b)
 
 ```{'''{r}
+
 # Import the “polls_us_election_2016” data set.
-if (!requireNamespace("dslabs", quietly = TRUE)) {
-  install.packages("dslabs")
-}
+
+install.packages("dslabs")
 
 library(dslabs)
 
 data(polls_us_election_2016)
 
-# Display the first 10 rows of the data set.
+# Display the first 10 rows of the data set on your web page.
+
 polls_first10 <- head(polls_us_election_2016, 10)
 
-# Calculate the total number of NA values in the first 10 rows
-total_NA <- sum(is.na(polls_first10))
+polls_first10
 
-# Print the total number of NA values
+
+''
+```
+
+```{'''{r}
+# Calculate the total number of NA values in the first 10 rows
+
+library(dslabs)
+data(polls_us_election_2016)
+
+polls_first10 <- head(polls_us_election_2016, 10)
+
+total_NA <- sum(is.na(polls_first10)) 
+
 print(total_NA)
 
 ''
+
+
 ```

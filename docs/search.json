@@ -83,7 +83,7 @@
     "href": "assignments/assignment-1.html#b",
     "title": "Assignment 1",
     "section": "(b)",
-    "text": "(b)\n# Import the “polls_us_election_2016” data set.\nif (!requireNamespace(\"dslabs\", quietly = TRUE)) {\n  install.packages(\"dslabs\")\n}\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set.\npolls_first10 &lt;- head(polls_us_election_2016, 10)\n\n# Calculate the total number of NA values in the first 10 rows\ntotal_NA &lt;- sum(is.na(polls_first10))\n\n# Print the total number of NA values\nprint(total_NA)\n\n''",
+    "text": "(b)\n\n# Import the “polls_us_election_2016” data set.\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set on your web page.\n\npolls_first10 &lt;- head(polls_us_election_2016, 10)\n\npolls_first10\n\n\n''\n# Calculate the total number of NA values in the first 10 rows\n\nlibrary(dslabs)\ndata(polls_us_election_2016)\n\npolls_first10 &lt;- head(polls_us_election_2016, 10)\n\ntotal_NA &lt;- sum(is.na(polls_first10)) \n\nprint(total_NA)\n\n''",
     "crumbs": [
       "Assignment 1"
     ]

@@ -216,25 +216,37 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="b" class="level2">
 <h2 class="anchored" data-anchor-id="b">(b)</h2>
-<pre class="{'''{r}"><code># Import the “polls_us_election_2016” data set.
-if (!requireNamespace("dslabs", quietly = TRUE)) {
-  install.packages("dslabs")
-}
+<pre class="{'''{r}"><code>
+# Import the “polls_us_election_2016” data set.
+
+install.packages("dslabs")
 
 library(dslabs)
 
 data(polls_us_election_2016)
 
-# Display the first 10 rows of the data set.
+# Display the first 10 rows of the data set on your web page.
+
 polls_first10 &lt;- head(polls_us_election_2016, 10)
 
-# Calculate the total number of NA values in the first 10 rows
-total_NA &lt;- sum(is.na(polls_first10))
+polls_first10
 
-# Print the total number of NA values
-print(total_NA)
 
 ''</code></pre>
+<pre class="{'''{r}"><code># Calculate the total number of NA values in the first 10 rows
+
+library(dslabs)
+data(polls_us_election_2016)
+
+polls_first10 &lt;- head(polls_us_election_2016, 10)
+
+total_NA &lt;- sum(is.na(polls_first10)) 
+
+print(total_NA)
+
+''
+
+</code></pre>
 
 
 </section>
