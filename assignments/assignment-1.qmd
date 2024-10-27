@@ -6,7 +6,95 @@ My first assignment has two parts.
 
 ## (a) A brief summary
 
-In this part of the assignment, I have two research questions that I developed myself.
+In this session, Cem Vardar enlightens us with valuable insights into data analysis, his area of expertise, as well as into the business world. Personally, I feel that his positive energy adds a great dynamic to our class. 😊
+
+Below, I’ll try to chronologically outline the main topics covered in our discussion.
+
+### What is Engineering?
+
+Engineering can be defined as problem-solving through scientific techniques, particularly leveraging mathematics and technological advancements. Engineers typically engage in projects focusing on system improvement and innovation. What sets industrial engineering apart from other fields is its focus on solving problems within highly complex systems. Industrial engineers may specialize in various areas to address these complexities, including:
+
+-   Logistics
+
+-   Operations research
+
+-   Simulation
+
+-   Quality modeling
+
+-   Supply chain and inventory management
+
+### Question 1: Is the “If It Works, Don’t Touch It” Principle Valid?
+
+Complex system behaviors are difficult to define, making it risky to overhaul entire processes. Instead, incremental improvements—targeting core issues one by one—may prove more effective.
+
+### Data Engineering and Industrial Engineering
+
+Data engineering focuses on data collection, classification, and deriving insights from data. Industrial engineering, on the other hand, uses these insights to make decisions and create plans. Due to the analytical skills and way of thinking developed in industrial engineering, individuals in this field can also work effectively in data analysis.
+
+### Question 2: Can Business Analysis Be Considered Part of Data Analysis?
+
+Data analysis provides tools to solve problems and make informed decisions, while business analysis identifies the root causes of problems through data. Thus, they’re related fields that both center on data and problem-solving.
+
+### Desired Qualities and Recommendations
+
+Two essential categories of skills are sought in data analysis: soft and technical skills. Soft skills include communication, social skills, analytical thinking, problem-solving, curiosity, and a desire to understand, as well as holistic thinking. Technical skills cover basics like statistics and programming, as well as data collection, processing, modeling, and visualization.
+
+Many of these skills can be developed over time. Soft skills will be valuable in many areas of your career, while technical skills can be learned as needed. Focusing on problems rather than tools can help develop technical skills more effectively. Knowing yourself is a lifelong asset.
+
+“What feels like play to you, but looks like work to others?” \<3
+
+### Recommended Reading/Listening/Viewing
+
+-   *How to Get Rich* — podcast
+
+-   *Mental Models*
+
+-   *Fooled by Randomness*
+
+-   *The Goal*
+
+-   *Atomic Habits*
+
+### Q&A Session
+
+**+ How have your master’s and Ph.D. studies impacted your career?**\
+*"Twenty years ago, self-development opportunities were fewer. Now, it’s different, which has lessened the importance of advanced degrees somewhat."*
+
+**+ How can inter-departmental data coordination issues be addressed in the business world?**\
+*"Management’s recognition is key. Once identified, solutions like data warehousing can improve coordination."*
+
+**+ Any personal achievements or regrets?**\
+*"Gaining experience in various fields was invaluable. I would have prioritized self-knowledge even more."*
+
+**+ How will AI impact the industry?**\
+*"For technical fields like engineering, the benefits will likely outweigh the downsides."*\
+*(Here’s to not being entirely replaced by 24.11.2028...)*
+
+**+ Thoughts on handling limited versus extensive data?**\
+*"Using minimal data for tasks that require substantial information can reduce reliability. Of course, the scale of data matters here."*
+
+**+ Operations Research vs. Statistics: which specialization is wiser?**\
+*"Gaining knowledge in multiple fields is generally more beneficial for the business world. But if you want to specialize, focus on what you genuinely enjoy rather than only on market value."*
+
+In this part of the assignment, I have two research questions that I developed myself:
+
+**Question1:** Why is a problem-solving approach prioritized in a data analysis process?
+
+a\) Because data sets are generally small\
+b) Because tools may quickly become obsolete\
+c) Because only soft skills are sufficient in the business world\
+d) Because it only requires technical knowledge
+
+**Answer:** b) Because tools may quickly become obsolete
+
+**Question2:** What type of analysis approach would you recommend to maximize the impact of data analysis on business processes?
+
+**Answer:** To maximize the impact of data analysis on business processes, I recommend adopting a **data-driven decision-making approach**. This strategy involves collecting relevant data, analyzing it, and using the insights gained to inform business decisions.
+
+**Example:** For instance, suppose a company wants to enhance its customer retention. It could analyze customer behavior data to identify patterns, such as which customers are most likely to churn and why.
+
+If the analysis reveals that customers who make frequent purchases in the first few months are more likely to stay, the company can implement a targeted retention program. This might include personalized follow-ups or special offers for these customers shortly after their initial purchase. By leveraging data insights, the company can tailor its strategies to keep valuable customers, thereby maximizing the effectiveness of its business processes.
 
 ## (b)
 
