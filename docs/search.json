@@ -83,7 +83,7 @@
     "href": "assignments/assignment-1.html#b",
     "title": "Assignment 1",
     "section": "(b)",
-    "text": "(b)\n\n# Import the “polls_us_election_2016” data set.\n\ninstall.packages(\"dslabs\")\n\nlibrary(dslabs)\n\ndata(polls_us_election_2016)\n\n# Display the first 10 rows of the data set on your web page.\n\npolls_first10 &lt;- head(polls_us_election_2016, 10)\n\npolls_first10\n\n\n''\n# Calculate the total number of NA values in the first 10 rows\n\nlibrary(dslabs)\ndata(polls_us_election_2016)\n\npolls_first10 &lt;- head(polls_us_election_2016, 10)\n\ntotal_NA &lt;- sum(is.na(polls_first10)) \n\nprint(total_NA)\n\n''",
+    "text": "(b)\n\n# Kütüphaneyi yükle\nlibrary(dslabs)\n\n# Veri setini yükle\ndata(polls_us_election_2016)\n\n# İlk 10 satırı al\npolls_first10 &lt;- head(polls_us_election_2016, 10)\n\n# NA değerlerini say\ntotal_NA &lt;- sum(is.na(polls_first10))\n\n# Sonucu yazdır\nprint(total_NA)\n''",
     "crumbs": [
       "Assignment 1"
     ]

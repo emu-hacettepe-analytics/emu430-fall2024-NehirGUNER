@@ -12,37 +12,19 @@ In this part of the assignment, I have two research questions that I developed m
 
 ```{'''{r}
 
-# Import the “polls_us_election_2016” data set.
-
-install.packages("dslabs")
-
+# Kütüphaneyi yükle
 library(dslabs)
 
+# Veri setini yükle
 data(polls_us_election_2016)
 
-# Display the first 10 rows of the data set on your web page.
-
+# İlk 10 satırı al
 polls_first10 <- head(polls_us_election_2016, 10)
 
-polls_first10
+# NA değerlerini say
+total_NA <- sum(is.na(polls_first10))
 
-
-''
-```
-
-```{'''{r}
-# Calculate the total number of NA values in the first 10 rows
-
-library(dslabs)
-data(polls_us_election_2016)
-
-polls_first10 <- head(polls_us_election_2016, 10)
-
-total_NA <- sum(is.na(polls_first10)) 
-
+# Sonucu yazdır
 print(total_NA)
-
 ''
-
-
 ```
