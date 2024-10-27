@@ -24,7 +24,7 @@ data(polls_us_election_2016)
 
 polls_first10 <- head(polls_us_election_2016, 10)
 
-polls_first10
+print(polls_first10)
 
 ```
 
