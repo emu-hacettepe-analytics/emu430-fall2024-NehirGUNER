@@ -42,6 +42,6 @@ polls_first10 <- head(polls_us_election_2016, 10)
 
 total_NA <- sum(is.na(polls_first10)) 
 
-print(which(is.na(total_NA)))
+print(total_NA)
 
 ```
