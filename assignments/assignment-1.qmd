@@ -14,11 +14,18 @@ In this part of the assignment, I have two research questions that I developed m
 
 # Import the “polls_us_election_2016” data set.
 
+install.packages("dslabs")
+
 library(dslabs)
 
 data(polls_us_election_2016)
 
 # Display the first 10 rows of the data set on your web page.
+
+install.packages("kableExtra")
+
+library(knitr)
+library(kableExtra)
 
 knitr::kable(cbind(Row_Number = sprintf("%-2s", 1:10), head(polls_us_election_2016, 10)), 
              
@@ -30,6 +37,7 @@ caption = "Polls US Election 2016 - First 10 Rows") %>%
 
 ```{r}
 
-total_NA <- length(which(is.na( polls_us_election_2016, 10)))
+
+print(length(which(is.na( polls_us_election_2016, 10))))
 
 ```
