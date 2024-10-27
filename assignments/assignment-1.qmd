@@ -27,3 +27,9 @@ caption = "Polls US Election 2016 - First 10 Rows") %>%
   
 
 ```
+
+```{r}
+
+total_NA <- length(which(is.na( polls_us_election_2016, 10)))
+
+```
