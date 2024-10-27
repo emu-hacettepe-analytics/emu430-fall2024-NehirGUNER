@@ -31,6 +31,7 @@ print(polls_first10)
 # calculate and display the total number of NA values in the entire data set.
 
 total_NA <- sum(is.na(polls_us_election_2016))
+
 print(total_NA)
 
 # replace all NA values in the “polls_us_election_2016” data set and store the modified data set as a new object.
